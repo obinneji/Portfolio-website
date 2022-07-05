@@ -8,9 +8,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: poppins;
+    
 }
-
+body{
+    font-family: poppins;
+    width: 100vw;
+}
 nav{
     background-color: var(--secordaryColor);
     display: flex;
@@ -262,8 +265,4 @@ gap: 1em;
 }
 .github-link > a{
     color: white;
-}
-/* footer */
-footer{
-    background-color: var(--secordaryColor);
 }
