@@ -126,7 +126,7 @@ header > h1{
 main{
     text-align: center;
     color: var(--secordaryColor);
-    padding: 3em;
+    padding: 1em;
 }
 main>h2{
     font-size: 3em;
