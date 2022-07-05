@@ -12,8 +12,8 @@
 }
 body{
     font-family: poppins;
-    width: 100vw;
-    overflow-x: hidden;
+    width: 100%;
+
 }
 nav,header,aside,main,section{
     width: 100%;
@@ -178,7 +178,7 @@ main>h2{
 /* skills section */
 aside{
     background-color: var(--secordaryColor);
-    /* padding: 3em; */
+    padding: 1em;
     color: white;
 }
 aside >h2{
@@ -216,7 +216,7 @@ aside >h2{
 /* projects */
 section{
     background-color: var(--primaryColor);
-    /* padding: 3em; */
+    padding: 1em;
     color: white;
 }
 section >h2{
