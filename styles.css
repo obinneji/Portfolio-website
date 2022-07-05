@@ -13,6 +13,7 @@
 body{
     font-family: poppins;
     width: 100vw;
+    overflow-x: hidden;
 }
 nav,header,aside,main,section{
     width: 100%;
@@ -80,8 +81,12 @@ header{
     background-color: var(--primaryColor);
     text-align: center;
     color: white;
-    /* padding: 6em; */
+    padding: 1em;
     height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 header >img, .dev-image{
     width: 200px;
