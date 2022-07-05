@@ -77,7 +77,7 @@ header{
     background-color: var(--primaryColor);
     text-align: center;
     color: white;
-    padding: 6em;
+    /* padding: 6em; */
     height: 70vh;
 }
 header >img, .dev-image{
@@ -117,7 +117,7 @@ header > h1{
 main{
     text-align: center;
     color: var(--secordaryColor);
-    padding: 3em;
+    /* padding: 3em; */
 }
 main>h2{
     font-size: 3em;
@@ -169,7 +169,7 @@ main>h2{
 /* skills section */
 aside{
     background-color: var(--secordaryColor);
-    padding: 3em;
+    /* padding: 3em; */
     color: white;
 }
 aside >h2{
@@ -207,7 +207,7 @@ aside >h2{
 /* projects */
 section{
     background-color: var(--primaryColor);
-    padding: 3em;
+    /* padding: 3em; */
     color: white;
 }
 section >h2{
