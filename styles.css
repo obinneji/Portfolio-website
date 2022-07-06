@@ -54,7 +54,7 @@ font-weight: 900;
     top: 25px;
     right: 10px
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     nav{
         /* height: 30vh; */
         flex-direction: column;
@@ -81,7 +81,7 @@ header{
     background-color: var(--primaryColor);
     text-align: center;
     color: white;
-    padding: 1em;
+    /* padding: 1em; */
     height: 70vh;
     display: flex;
     align-items: center;
@@ -126,7 +126,7 @@ header > h1{
 main{
     text-align: center;
     color: var(--secordaryColor);
-    padding: 1em;
+    padding: 2em;
 }
 main>h2{
     font-size: 3em;
@@ -178,7 +178,7 @@ main>h2{
 /* skills section */
 aside{
     background-color: var(--secordaryColor);
-    padding: 1em;
+    padding: 2em;
     color: white;
 }
 aside >h2{
@@ -216,7 +216,7 @@ aside >h2{
 /* projects */
 section{
     background-color: var(--primaryColor);
-    padding: 1em;
+    padding: 2em;
     color: white;
 }
 section >h2{
