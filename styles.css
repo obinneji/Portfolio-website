@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Poppins:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Poppins:wght@200;300;400;500;700;900&display=swap');
 :root{
     --primaryColor: #1abc9c;
 --secordaryColor: #2c3e50;
@@ -8,7 +8,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
 html,body{
     font-family: poppins;
@@ -47,6 +46,7 @@ font-weight: 900;
     background-color: var(--primaryColor);
     padding: .5em 1.5em;
     border-radius: 2em;
+    font-weight: 700;
 }
 .menu-hamburger{
     display: none;
@@ -131,6 +131,7 @@ main{
 main>h2{
     font-size: 3em;
     margin-bottom: .5em;
+    text-transform: uppercase;
 }
 .dark-divider{
     display: flex;
@@ -222,13 +223,15 @@ section{
 section >h2{
     text-align: center;
     font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 .project-container{
     margin-top: 2em;
     display: grid;
 grid-template-columns: repeat(2, 1fr);
 /* grid-template-rows: repeat(2, 1fr); */
-gap: 1em;
+gap: 2em;
 
 }
 .project{
@@ -266,12 +269,89 @@ gap: 1em;
 }
 .links > a {
     font-size: 2em;
+    color: white;
 }
 .github-link{
     text-align: center;
     margin-top: 2em;
     font-size: 1em;
+    font-weight: 700;
+    word-spacing: 2px;
 }
 .github-link > a{
     color: white;
+
 }
+
+/* footer */
+
+footer{
+    background-color: var(--secordaryColor);
+    padding: 3em 4em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.location, .message,.social-media{
+    text-align: center;
+}
+.location >h2,.message >h2, .social-media >h2{
+    color: white;
+    margin: .5em 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.location >p,.message >p{
+    color: white;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+.email-btn {
+    border-radius: 16px;
+    font-family: poppins;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px;
+    background: var(--primaryColor);
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .email-btn:hover {
+    background: white;
+    text-decoration: none;
+    color: var(--secordaryColor);
+    font-weight: 700;
+  }
+  .social-links{
+    display: flex;
+    justify-content: space-between;
+  }
+  .social-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    
+  }
+  .social-link:hover{
+    background-color: white;
+    color: black;
+  }
+  @media (max-width: 600px) {
+    footer{
+        flex-direction: column;
+    }
+  }
+  .copyright{
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(19, 23, 26);
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+  }
