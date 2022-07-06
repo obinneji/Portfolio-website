@@ -187,7 +187,7 @@ aside >h2{
     font-size: 3em;
     text-transform: uppercase;
 }
-/* .skills{
+ .skills{
     margin-top: 3em;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -213,7 +213,7 @@ aside >h2{
 .skill >h4{
     font-weight: 300;
     font-style: italic;
-} */
+} 
 /* projects */
 section{
     background-color: var(--primaryColor);
