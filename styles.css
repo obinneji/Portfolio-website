@@ -56,7 +56,6 @@ font-weight: 900;
 }
 @media (max-width: 800px) {
     nav{
-        /* height: 30vh; */
         flex-direction: column;
         align-items: flex-start;
     }
@@ -81,7 +80,6 @@ header{
     background-color: var(--primaryColor);
     text-align: center;
     color: white;
-    /* padding: 1em; */
     height: 70vh;
     width: 100vw;
     display: flex;
@@ -108,7 +106,7 @@ header > h1{
     justify-content: center;
 }
 .light-divider > ion-icon{
-    /* background-color: #fff; */
+
     font-size: 2em;
 }
 .light-divider > hr{
@@ -233,7 +231,6 @@ section >h2{
     margin-top: 2em;
     display: grid;
 grid-template-columns: repeat(2, 1fr);
-/* grid-template-rows: repeat(2, 1fr); */
 gap: 2em;
 
 }
@@ -369,10 +366,7 @@ footer{
     color: white;
     position: relative;
     left: 10px;
-    font-size: 60px;
+    font-size: 40px;
   }
 
-  .arrow-up{
-    position: relative;
-
-  }
+ 
