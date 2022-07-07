@@ -156,7 +156,7 @@ main>h2{
 .about-info{
     margin-top: 2em;
     margin-bottom: 2em;
-    padding: 0 3em;
+    padding: 0 1em;
     font-weight: 500;
 }
 .resume-btn > ion-icon{
@@ -330,6 +330,7 @@ footer{
   .social-links{
     display: flex;
     justify-content: space-between;
+    gap: 10px;
   }
   .social-link{
     display: flex;
@@ -357,4 +358,21 @@ footer{
     color: white;
     font-weight: 200;
     font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.copyright > p{
+    align-self: center;
+}
+  .copyright > a{
+    color: white;
+    position: relative;
+    left: 10px;
+    font-size: 60px;
+  }
+
+  .arrow-up{
+    position: relative;
+
   }
